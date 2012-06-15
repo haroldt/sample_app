@@ -30,7 +30,7 @@ GEM
       multi_json (~> 1.0)
     addressable (2.2.8)
     arel (3.0.2)
-    bcrypt-ruby (3.0.1)
+    bcrypt-ruby (3.0.0)
     bootstrap-sass (2.0.0)
     builder (3.0.0)
     capybara (1.1.2)
@@ -53,6 +53,11 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    factory_girl (2.3.2)
+      activesupport
+    factory_girl_rails (1.4.0)
+      factory_girl (~> 2.3.0)
+      railties (>= 3.0.0)
     ffi (1.0.11)
     guard (1.1.1)
       listen (>= 0.4.2)
@@ -164,10 +169,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt-ruby (~> 3.0.0)
+  bcrypt-ruby (= 3.0.0)
   bootstrap-sass (= 2.0.0)
   capybara (= 1.1.2)
   coffee-rails (~> 3.2.2)
+  factory_girl_rails (= 1.4.0)
   guard-rails
   guard-rspec (= 0.5.5)
   guard-spork (= 0.3.2)
