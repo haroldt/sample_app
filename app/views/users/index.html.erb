@@ -1,0 +1,8 @@
+<% provide(:title, 'All users') %>
+<h1 id="">All users</h1>
+<ul class="users">
+  <%= will_paginate %>
+  <%= render :partial => 'user', :collection => @users %>
+</ul>
+
+<%= will_paginate %>

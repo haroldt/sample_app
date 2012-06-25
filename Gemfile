@@ -12,6 +12,8 @@ group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.10.0'
   gem 'guard-rspec', '0.5.5'
+  gem 'pry'
+  gem 'rack-webconsole-pry', :require => 'rack-webconsole'
 end
 
 # Gems used only for assets and not required
