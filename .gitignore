@@ -15,6 +15,7 @@
 /tmp
 # Ignore other unndeded files
 *.swp
+*.swo
 *~
 .project
 .DS_Store
